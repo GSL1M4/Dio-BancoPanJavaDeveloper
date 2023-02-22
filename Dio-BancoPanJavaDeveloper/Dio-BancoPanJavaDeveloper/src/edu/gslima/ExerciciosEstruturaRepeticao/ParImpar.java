@@ -24,6 +24,8 @@ public class ParImpar {
         }
 
 
+
+
         System.out.printf("\nA quantidade de numeros par é: %d", par);
         System.out.printf("\nA quantidade de numeros impar é: %d", impar);
     }
