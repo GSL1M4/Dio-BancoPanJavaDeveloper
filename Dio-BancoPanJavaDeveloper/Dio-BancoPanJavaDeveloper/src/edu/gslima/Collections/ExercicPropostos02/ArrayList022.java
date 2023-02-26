@@ -1,4 +1,4 @@
-package edu.gslima.ArrayListExe02;
+package edu.gslima.Collections.ExercicPropostos02;
 
 import java.util.ArrayList;
 import java.util.List;
