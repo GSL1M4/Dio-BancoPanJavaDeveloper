@@ -21,7 +21,6 @@ public class Main{
 
         }};
 
-
         double aux;
         double aux1 = 0d;
 
