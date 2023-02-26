@@ -36,6 +36,7 @@ public class ArrayList022 {
             }else{
                 System.out.println("OPÇAO INVÁLIDA");
             }
+            a++;
 
         }
 
@@ -43,7 +44,9 @@ public class ArrayList022 {
             System.out.println("Inocente");
         }else if(sim == 2){
             System.out.println("Suspeito");
-        }else if(sim == 3 | resp == 4){
+        }else if(sim == 3){
+            System.out.println("Cúmplice");
+        } else if (sim == 4) {
             System.out.println("Cúmplice");
         } else if (sim == 5) {
             System.out.println("Assassino");
