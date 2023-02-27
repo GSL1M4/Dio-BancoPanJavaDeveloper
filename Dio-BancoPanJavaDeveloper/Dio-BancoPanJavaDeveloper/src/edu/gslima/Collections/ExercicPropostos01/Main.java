@@ -29,7 +29,7 @@ public class Main{
             aux = m.getTemp();
             aux1 +=aux;
             if(aux > (aux1/ mes1.size())){
-                System.out.printf("\nMes: %s - tempe: %.0f", m.getNome(), m.getTemp());
+                System.out.printf("\nMes: %s - temperatura: %.0f", m.getNome(), m.getTemp());
             }
         }
 
