@@ -1,6 +1,9 @@
 package edu.gslima.Collections.MapExerciciosPropostos01;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.*;
+import java.util.function.Function;
 
 public class Estados {
 
@@ -97,8 +100,13 @@ public class Estados {
         System.out.println("-------------------------------------------------------------------------");
 
         // removendo estados com população menor que 4.000.000:
-
-        // Não consegui! Faltou conhecimento ^^
+        Iterator<Integer> it = estados1.values().iterator();
+        while (it.hasNext()) {
+            if (it.next() <= 4000000) {
+                it.remove();
+            }
+        }
+        System.out.println("Removendo estados: "+estados1);
 
         System.out.println("-------------------------------------------------------------------------");
 
